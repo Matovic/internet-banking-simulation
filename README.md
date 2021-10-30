@@ -18,13 +18,7 @@ Further criteria:
      - [x] Factory 
 - [x] handling exceptional states using own exceptions – one exception is sufficient, but it has to be actually thrown and handled   
 - [x] providing a graphical user interface separated from application logic and with at least part of the event handlers created manually – counts as a fulfillment of two further criteria 
-- [ ] explicit use of multithreading – starting an own thread directly or using a higher level API (the Task class and such) 
-- [ ] using generics in own classes – implementing and using an own generic class (as in the linked list example provided with lecture 5)   
-- [ ] explicit use of RTTI – for example, to determine the type of on object or to create an object of a certain type (as in determining the number of beings in the ogre and knights game) 
 - [x] using nested classes and interfaces – only using them within the application logic counts, not in the GUI, whereby the interfaces have to be own (one possibility is present in the inner class example provided with lecture 4)  
 - [x] using lambda expressions or method references – only using them within the application logic counts, not in the GUI, whereby the interfaces have to be own (one possibility is present in the method reference and lambda expression example provided with lecture 4)  
 - [x] using default method implementation in interfaces 
-- [ ] using aspect-oriented programming (AspectJ) 
-- [ ] using serialization 
-
 Launch Main.java in jdk1.8.0_241 version.
